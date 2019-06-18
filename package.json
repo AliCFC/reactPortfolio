@@ -35,9 +35,4 @@
       "last 1 safari version"
     ]
   }
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "node ./bin/www"
-  },
 }
