@@ -1,0 +1,33 @@
+@import "../../index";
+
+.search-feld {
+  background: $mainGreen;
+  width: 67%;
+  margin: auto;
+  padding: 1rem;
+  padding-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+  border-radius: 0.8rem;
+  float: inherit;
+
+  img{
+    width: 10rem;
+    border-radius: 4rem;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+
+  }
+  span{
+    font-style: italic;
+    color: $mainGey;
+    display: table-cell;
+  }
+}
+@media screen and (max-width: 613px) {
+  .search-feld{
+    span{
+    display: contents;
+  }
+  }
+}

@@ -1,0 +1,66 @@
+@import "../../index";
+.post{
+  background: $mainGey;
+  border-radius: 0.8rem;
+  margin: 1rem 0;
+  img{
+    width: 100%;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    display: block;
+  }
+}
+.img-container{
+  position: relative;
+}
+.img-container:hover {
+  opacity: 1;
+}
+.post-info{
+  padding: 1rem 0.5rem;
+
+  h3{
+    text-transform: capitalize;
+    color: $mainGreen;
+    font-size: 1.5rem ;
+  }
+  h4{
+    text-transform: capitalize;
+    color: $mainBlack;
+    margin: 0.2rem 0 0.6rem 0;
+    font-size: smaller;
+  }
+  h5{
+    text-transform: capitalize;
+    span{
+      color: $mainGreen;
+      margin: 0.5rem;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+  }
+}
+.extra-info{
+  font-weight: bold;
+}
+.extra-reponse{
+  color: $mainGreen;
+  font-weight: bold;
+  font-style: italic;
+}
+progress {
+  height: 15px;
+  border-radius: 9px;
+  width: 12rem;
+}
+.pourcent{
+  color: $mainGreen;
+  font-size: larger;
+  margin-left: 0.5rem;
+  font-weight: bold;
+}
+@media screen and (max-width: 376px){
+  progress{
+    width: 8rem;
+  }
+}
