@@ -15,14 +15,14 @@ class Footer extends Component {
                                 <ul className="list-unstyled">
                                     <li>Adresse: Leipzig, Deutschland</li>
                                     <li>Email: ali_amairi@hotmail.fr</li>
-                                    <li>Tel: 0178865706</li>
+                                    <li>Tel: 01788546706</li>
                                 </ul>
                             </div>
                             {/*Colum2*/}
                             <div className="col-md-3 col-sm-6">
                                 <h4>References</h4>
                                 <ul className="list-unstyled">
-                                    <li><a href="https://alicfc.github.io/Game/index.html" target="_blank">Rock Paper Scissors</a></li>
+                                    <li><a href="https://rockscissors.netlify.com/" target="_blank">Rock Paper Scissors</a></li>
 
                                 </ul>
                             </div>
