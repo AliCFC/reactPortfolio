@@ -4,28 +4,28 @@ export const Data = [
     languge: "java",
     img: "./img/java.png",
     Info:[],
-    progress: 70
+    progress: 50
   },
   {
     id: 2,
     languge: "Python",
     img: "./img/python.png",
     Info : ["Django"],
-    progress: 70
+    progress: 50
   },
   {
     id: 3,
     languge: "Javascript",
     img: "./img/javascript2.jpg",
     Info:["ES6","jQuery","JSON & AJAX"],
-    progress: 70
+    progress: 55
   },
   {
     id: 4,
     languge: "Datenbanken",
     img: "./img/database_server.jpg",
     Info:["MySql","SQLite","MangoDB"],
-    progress: 60,
+    progress: 50,
 
   },
   {
@@ -33,7 +33,7 @@ export const Data = [
     languge: "Android",
     img: "./img/android-cover.jpg",
     Info:[],
-    progress: 50
+    progress: 20
   },
   {
     id: 6,
@@ -46,8 +46,8 @@ export const Data = [
     id: 7,
     languge: "Framwork",
     img: "./img/framwork.png",
-    Info:["AngularJS","ReactJs","Vue.js","Node.js"],
-    progress: 60
+    Info:["AngularJS","ReactJs","Node.js"],
+    progress: 50
   },
   {
     id: 8,
