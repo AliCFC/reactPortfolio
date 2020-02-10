@@ -3,15 +3,15 @@ export const Data = [
     id: 1,
     languge: "java",
     img: "./img/java.png",
-    Info:[],
-    progress: 50
+    Info:["Android"],
+    progress: 40
   },
   {
     id: 2,
     languge: "Python",
     img: "./img/python.png",
     Info : ["Django"],
-    progress: 50
+    progress: 40
   },
   {
     id: 3,
@@ -30,10 +30,10 @@ export const Data = [
   },
   {
     id: 5,
-    languge: "Android",
-    img: "./img/android-cover.jpg",
+    languge: "PHP",
+    img: "./img/PHP-logo.jpg",
     Info:[],
-    progress: 20
+    progress: 70
   },
   {
     id: 6,
