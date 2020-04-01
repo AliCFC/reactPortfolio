@@ -32,28 +32,28 @@ export const Data = [
     id: 5,
     languge: "PHP",
     img: "./img/PHP-logo.jpg",
-    Info:[],
+    Info:["Zend"],
     progress: 70
   },
   {
     id: 6,
     languge: "Html",
     img: "./img/html.jpg",
-    Info: ["Bootstrap","Sass/Scss"],
+    Info: ["Bootstrap","css"],
     progress: 70
   },
   {
     id: 7,
     languge: "Framwork",
     img: "./img/framwork.png",
-    Info:["AngularJS","ReactJs","Node.js"],
+    Info:["ReactJs","Node.js"],
     progress: 50
   },
   {
     id: 8,
     languge: "Tools",
     img: "./img/Web-tools.jpg",
-    Info:["Eclipse","IntelliJ, PyCharm","Android Studio","NetBeans"],
+    Info:["Eclipse,NetBeans","IntelliJ, PyCharm","ZendStudio","Atom"],
     progress: 80
   },
 
