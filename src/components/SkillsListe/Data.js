@@ -3,14 +3,14 @@ export const Data = [
     id: 1,
     languge: "java",
     img: "./img/java.png",
-    Info:["Android"],
+    Info:[""],
     progress: 40
   },
   {
     id: 2,
     languge: "Python",
     img: "./img/python.png",
-    Info : ["Django"],
+    Info : [""],
     progress: 40
   },
   {
@@ -24,14 +24,14 @@ export const Data = [
     id: 4,
     languge: "Datenbanken",
     img: "./img/database_server.jpg",
-    Info:["MySql","SQLite","MangoDB"],
-    progress: 50,
+    Info:["MySql"],
+    progress: 70,
 
   },
   {
     id: 5,
     languge: "PHP",
-    img: "./img/PHP-logo.jpg",
+    img: "./img/php.png",
     Info:["Zend"],
     progress: 70
   },
@@ -46,15 +46,15 @@ export const Data = [
     id: 7,
     languge: "Framwork",
     img: "./img/framwork.png",
-    Info:["ReactJs","Node.js"],
+    Info:["ReactJs","Smarty"],
     progress: 50
   },
   {
     id: 8,
     languge: "Tools",
     img: "./img/Web-tools.jpg",
-    Info:["Eclipse,NetBeans","IntelliJ, PyCharm","ZendStudio","Atom"],
-    progress: 80
+    Info:["Eclipse,NetBeans","IntelliJ, PyCharm","ZendStudio , Atom","Git"],
+    progress: 70
   },
 
 ];

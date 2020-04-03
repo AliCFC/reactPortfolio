@@ -9,20 +9,11 @@ export default function Navbar() {
             <img src={logo} alt='City Tours Logo'/>
             <ul className="nav-links">
                 <li>
-                    <a href="/" className="nav-link">
-                        Home
-                    </a>
-                </li>
-                <li>
                     <a href={Pdf} target="_blank" className="nav-link">
                         Lebenslauf
                     </a>
                 </li>
-                <li>
-                    <a href="/" className="nav-link active">
-                        Konatkt
-                    </a>
-                </li>
+
             </ul>
         </nav>
 

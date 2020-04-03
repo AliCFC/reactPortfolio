@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import styled from 'styled-components';
 
-
 class Footer extends Component {
     render() {
         return (
@@ -11,35 +10,36 @@ class Footer extends Component {
                         <div className="row">
                             {/*Colum1*/}
                             <div className="col-md-3 col-sm-6">
-                                <h4>Contact me</h4>
+                                <h4>Kontakt</h4>
                                 <ul className="list-unstyled">
                                     <li>Adresse: Leipzig, Deutschland</li>
                                     <li>Email: ali_amairi@hotmail.fr</li>
                                     <li>Tel: 01788546706</li>
                                 </ul>
                             </div>
-                            {/*Colum2*/}
-                            <div className="col-md-3 col-sm-6">
-                                <h4>References</h4>
-                                <ul className="list-unstyled">
-                                    <li><a href="https://rockscissors.netlify.com/" target="_blank">Rock Paper Scissors</a></li>
-
-                                </ul>
-                            </div>
+                            <div className="col-md-3 col-sm-6"></div>
                             {/*Colum3*/}
                             <div className="col-md-3 col-sm-6">
-                                <h4>Follow me</h4>
+                                <h4>Links</h4>
                                 <ul className="list-unstyled">
                                     <li><a href="https://www.linkedin.com/in/ali-amairi-0a531a185/" target="_blank">linkedin</a></li>
                                     <li><a href="https://github.com/AliCFC" target="_blank">Github</a></li>
                                 </ul>
                             </div>
+                            {/*Colum2*/}
+                            {/*<div className="col-md-3 col-sm-6">
+                                <h4>References</h4>
+                                <ul className="list-unstyled">
+                                    <li><a href="https://rockscissors.netlify.com/" target="_blank">Rock Paper Scissors</a></li>
+                                </ul>
+                            </div>*/}
+
                         </div>
 
                         {/*Footer Bottom*/}
-                        <div className="footer-bottom">
-                            <p className="text-xs-center">
-                                &copy;{new Date().getFullYear()} Amairi - All Rights Reserved
+                        <div  className="footer-bottom text-center time">
+                            <p className="text-xs-center" style={{marginBottom:-20}}>
+                                &copy;{new Date().getFullYear()} Amairi
                             </p>
                         </div>
                     </div>
