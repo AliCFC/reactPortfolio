@@ -32,7 +32,7 @@ export const Data = [
     id: 5,
     languge: "PHP",
     img: "./img/php.png",
-    Info:["Zend"],
+    Info:["Zend","Codeigniter"],
     progress: 70
   },
   {
