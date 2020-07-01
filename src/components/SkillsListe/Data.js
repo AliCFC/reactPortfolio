@@ -46,7 +46,7 @@ export const Data = [
     id: 7,
     languge: "Framwork",
     img: "./img/framwork.png",
-    Info:["ReactJs","Smarty","SAPUI5 und oData Servie"],
+    Info:["ReactJs","Smarty","SAPUI5 und oData Service"],
     progress: 50
   },
   {
