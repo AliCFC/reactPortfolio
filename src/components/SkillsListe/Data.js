@@ -17,7 +17,7 @@ export const Data = [
     id: 3,
     languge: "Javascript",
     img: "./img/javascript2.jpg",
-    Info:["ES6","jQuery","JSON & AJAX"],
+    Info:["ES6","jQuery","AJAX"],
     progress: 55
   },
   {
@@ -46,14 +46,14 @@ export const Data = [
     id: 7,
     languge: "Framwork",
     img: "./img/framwork.png",
-    Info:["ReactJs","Smarty"],
+    Info:["ReactJs","Smarty","SAPUI5 und oData Servie"],
     progress: 50
   },
   {
     id: 8,
     languge: "Tools",
     img: "./img/Web-tools.jpg",
-    Info:["Eclipse,NetBeans","IntelliJ, PyCharm","ZendStudio , Atom","Git"],
+    Info:["Eclipse,NetBeans","IntelliJ, PyCharm","ZendStudio , Atom , Code VS","Git"],
     progress: 70
   },
 
